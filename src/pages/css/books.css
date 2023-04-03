@@ -1,0 +1,86 @@
+.books-section {
+    margin: 50px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 12px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 12px -7px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 12px -7px rgba(0,0,0,0.75);
+}
+
+.books-section ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.books-section ul li {
+    width: 100%;
+    
+}
+
+.books-section ul li:first-child {
+    font-weight: 900;
+    text-align: center;
+}
+
+/* BOOK LIST HEAD */
+.books-section ul.head-list {
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.books-section ul.head-list li {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.books-section ul.head-list li .icon {
+    position: relative;
+    top: 3px;
+}
+
+/* BOOK LIST ITEM */
+.books-section ul.item-list {
+    padding: 20px;
+    transition: .3s;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.books-section ul.item-list:hover {
+    background-color: #f2f2f2;
+}
+
+.books-section ul.item-list li:last-child {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.books-section ul.item-list li span {
+    cursor: pointer;
+}
+
+.books-section ul.item-list li span:nth-child(2) {
+    color: red;
+}
+
+.books-section ul.item-list li span .item-link {
+    text-decoration: none;
+    color: #444;
+    border: 1px solid #444;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-top: -5px;
+    border-radius: 5px;
+    display: block;
+}
+
+.books-section ul.item-list li span:hover {
+    opacity: .6;
+}
